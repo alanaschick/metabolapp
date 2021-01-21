@@ -189,10 +189,10 @@ server <- function(input, output, session) {
 	}) 
 	
 	## Violin plots
-	output$violinplots <- renderPlot({
-	  req(input$compound_list_violin)
-	  mavPlot(df(), vioPlot = T, scale = input$scale, scaleby = input$scale_by, compound_list = input$compound_list_violin)
-	})
+	#output$violinplots <- renderPlot({
+	 # req(input$compound_list_violin)
+	  #mavPlot(df(), vioPlot = T, scale = input$scale, scaleby = input$scale_by, compound_list = input$compound_list_violin)
+	#})
 	
 }
 
