@@ -16,7 +16,7 @@ dat <- read.csv("data/Maven_output_edit.csv", head = TRUE, stringsAsFactors = FA
 ## User interface
 ui <- fluidPage(theme = shinytheme("spacelab"),
 
-	titlePanel("Exploring maven output"),
+	titlePanel("Exploring metabolomics data"),
 	
 	mainPanel(
 	  
