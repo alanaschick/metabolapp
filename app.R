@@ -137,10 +137,10 @@ server <- function(input, output, session) {
   })  
   
   ## Get compound names for violin plots
-  output$get_compounds_violin <- renderUI({
-    compound_names <- metaSep(df())[[1]]$compound
-    selectInput("compound_list_violin", "Choose compounds to plot:", compound_names, multiple = T)
-  })
+  #output$get_compounds_violin <- renderUI({
+   # compound_names <- metaSep(df())[[1]]$compound
+   # selectInput("compound_list_violin", "Choose compounds to plot:", compound_names, multiple = T)
+  #})
   
   ## Display data contents
   output$contents <- renderTable({
