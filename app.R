@@ -83,14 +83,14 @@ ui <- fluidPage(theme = shinytheme("spacelab"),
 	             uiOutput("get_compound_names"),
 	             uiOutput("get_group_names"),
 	             plotOutput("barplot"),
-	             hr(),
+	             br()
 	             
 	             ##Other plots
-	             h2("Violin plots"),
-	             br(), 
-	             uiOutput("get_compounds_violin"), 
-	             plotOutput("violinplots"),
-	             br()
+	             #h2("Violin plots"),
+	             #br(), 
+	             #uiOutput("get_compounds_violin"), 
+	             #plotOutput("violinplots"),
+	             #br()
 	    ),
 	    
 	    ## Tab 3 - Statistics?
